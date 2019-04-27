@@ -6,7 +6,7 @@ and https://deathandthepenguinblog.wordpress.com/2018/01/03/hacking-the-neutroge
 Simple serial port command line interface to the routines bundled together to make it easier to have a single
 Arduino image and control things through a use serial ports (or the arduino serial monitor)
 
-#Pinout/connections
+# Pinout/connections
 ```
  Arduino | 8 pin  | usage
  mini    | clip   |
@@ -20,7 +20,7 @@ Arduino image and control things through a use serial ports (or the arduino seri
    6     |   3    | MoSi
    7     |   4    | MiSo
 ```
-#Cli Reference / Commands
+# Cli Reference / Commands
 ```
 dump (start) (end) - dump an area of the eeprom
 write (address) (data) -- write an eeprom location
